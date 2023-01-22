@@ -34,5 +34,11 @@ public class GameHandler : MonoBehaviour
             
             
         }
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+            Debug.Log("Game Closed");
+        }
     }
 }
